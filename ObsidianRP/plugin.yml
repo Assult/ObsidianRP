@@ -1,0 +1,6 @@
+name: ObsidianRP
+version: 0.1
+main: me.herman.obsidianrp.Main
+
+commands:
+  rp:
