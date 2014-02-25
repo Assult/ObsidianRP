@@ -1,3 +1,31 @@
-#made with luw
+default-job: citizen
 
-intex: '10'
+enabled-jobs:
+  - citizen
+  - hobo
+  - police-officer
+  - gangster
+  - mafia-boss
+
+citizen:
+  salary: 50
+  prefix: §a[CITIZEN]
+  requires-vote: false
+hobo:
+  salary: 0
+  prefix: [HOBO]
+  requires-vote: false
+police-officer:
+  salary: 120
+  prefix: [POLICE-OFFICER]
+  requires-vote: true
+  votes-needed: 1
+gangster:
+  salary: 40
+  prefix: [GANGSTER]
+  requires-vote: false
+mafia-boss:
+  salary: 80
+  prefix: [MAFIA-BOSS]
+  requires-vote: false
+  
